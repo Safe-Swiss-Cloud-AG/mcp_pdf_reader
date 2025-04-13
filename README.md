@@ -1,5 +1,5 @@
 # MCP Enabled PDF Reader
-Model Context Protocol (MCP) server exposes a tool called read_pdf to read a single pdf document. This has been tested on Claude Desktop and LibreChat with Ollama. There is no maximum size to the pdf file that can be read in; the number of tokens will be the limiting factor. 
+Model Context Protocol (MCP) server exposes a tool called read_pdf to read a single pdf document. This has been tested on Claude Desktop and LibreChat with Ollama. Although there is no maximum size to the pdf file that can be read, the number of tokens passed to the model will be the limiting factor.
 
 ## Installation
 
